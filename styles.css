@@ -1,207 +1,176 @@
-html{
-    background-color: #697565;
-    padding: 0;
-    margin: 0;
+html {
+  background-color:#697565;
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    color: #ECDFCC;
-    background-color: #3C3D37;
-    width: 700px;
-    height: 100%;
-    margin: auto;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+body {
+  color:#ecdfcc;
+  background-color:#3c3d37;
+  width:700px;
+  height:100%;
+  margin:auto;
+  padding:0;
+  display:flex;
+  flex-direction:column;
+  box-shadow:0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2{
-    text-align: center;
+h1,
+h2 {
+  text-align:center;
 }
 
-/* Style the navbar */
 #navBar {
-    background-color: #181C14; 
-    padding: 10px;
+  background-color:#181c14;
+  padding:10px;
 }
 
 #navBar h1 {
-    color: #ECDFCC;
-    margin-right: 20px;
-    vertical-align: middle;
+  color:#ecdfcc;
+  margin-right:20px;
+  vertical-align:middle;
 }
-
 
 #navBar ul {
-    list-style-type: none;
-    margin: auto;
-    padding: auto;
-    overflow: hidden;
+  list-style-type:none;
+  margin:auto;
+  padding:auto;
+  overflow:hidden;
 }
-
 
 #navBar ul li {
-    float: left;
-    margin-right: 25px;
+  float:left;
+  margin-right:25px;
 }
-
 
 #navBar ul li a {
-    text-decoration: none;
-    padding: 10px 15px;
-    color: #ECDFCC;
-    border-radius: 100px;
+  text-decoration:none;
+  padding:10px 15px;
+  color:#ecdfcc;
+  border-radius:100px;
 }
-
 
 #navBar ul li a:hover {
-    background-color: #3C3D37;
+  background-color:#3c3d37;
 }
 
-
-
-/* Style the Create event form */
 #theForm {
-    min-width: 500px;
-    margin: auto;
-    padding: 20px;
+  min-width:500px;
+  margin:auto;
+  padding:20px;
 }
-
 
 #theForm label {
-    display: block;
-    margin-bottom: 10px;
-    color: #ECDFCC;
+  display:block;
+  margin-bottom:10px;
+  color:#ecdfcc;
 }
 
-#theForm input[type="text"], /* Selecting elements of the type, in this case selecting input of type text then date then select */
-#theForm input[type="date"],
-#theForm select,
-#theForm textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border-radius: 7px;
+#theForm input,select,textarea {
+  width:100%;
+  padding:10px;
+  margin-bottom:15px;
+  border-radius:7px;
 }
 
 #theForm textarea {
-    height: 50px;
+  height:50px;
 }
 
-button { /* styling all buttons in the index.html*/
-    padding: 10px 20px;
-    background-color: #697565;
-    color: black;
-    border: none;
-    border-radius: 7px;
+button {
+  padding: 10px 20px;
+  background-color:#697565;
+  color:black;
+  border:none;
+  border-radius:7px;
 }
 
 button:hover {
-    background-color: #ECDFCC;
+  background-color:#ecdfcc;
 }
 
-
-
-/* Style the Availability form */
 #theForm2 {
-    min-width: 500px; 
-    margin: auto; 
-    padding: 10px;
-    text-align: center;
+  min-width:500px;
+  margin:auto;
+  padding:10px;
+  text-align:center;
 }
-
 
 #theForm2 table {
-    width: 100%;
-    border-collapse: collapse;
+  width:100%;
+  border-collapse:collapse;
 }
 
-
-#theForm2 th, #theForm2 td {
-    padding: 10px;
-    border: 1px solid #ECDFCC;
-    text-align: center; 
+#theForm2 th, td {
+  padding:10px;
+  border:1px solid #ecdfcc;
+  text-align:center;
 }
 
-
-
-/* Style the results form */
 #result-form {
-    min-width: 500px;
-    margin: 20px auto;
-    padding: 10px;
-    text-align: center;
+  min-width:500px;
+  margin:20px auto;
+  padding:10px;
+  text-align:center;
 }
 
-
-#result-form table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 10px;
+#result-form table{
+  width:100%;
+  border-collapse:collapse;
+  margin-bottom:10px;
 }
 
-
-#result-form th, #result-form td {
-    padding: 8px;
-    border: 1px solid #ECDFCC;
-    text-align: center;
+#result-form th, td{
+  padding: 8px;
+  border: 1px solid #ecdfcc;
+  text-align: center;
 }
 
-
-#result-form th {
-    background-color: #697565;
-    color: #ECDFCC;
+#result-form th{
+  background-color:#697565;
+  color:#ecdfcc;
 }
 
-
-#result-form p a {
-    color: rgb(85, 85, 255);
-    text-decoration: none;
+#result-form p a{
+  color:rgb(85, 85, 255);
+  text-decoration:none;
 }
-#result-form p a:hover {
-    text-decoration: underline;
-}
-
-
-
-/* Styling the Sign up form */
-#sign-up-form {
-    min-width: 400px;
-    margin: 20px auto;
-    padding: 15px;
+#result-form p a:hover{
+  text-decoration:underline;
 }
 
-
-#sign-up-form label {
-    display: block;
-    margin-bottom: 10px;
-    color:  #ECDFCC;
+#sign-up-form{
+  min-width:400px;
+  margin:20px auto;
+  padding:15px;
 }
 
-
-#sign-up-form input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 15px;
-    border:none;
-    border-radius: 7px;
-    font-size: 14px;
+#sign-up-form label{
+  display:block;
+  margin-bottom:10px;
+  color:#ecdfcc;
 }
 
-
-footer {
-    background-color: #181C14;
-    padding: 10px 0; 
-    text-align: center; 
-    font-size: 14px;
-    color: #ECDFCC; 
-    border-top: 3px solid #697565;
+#sign-up-form input{
+  width:100%;
+  padding:8px;
+  margin-bottom:15px;
+  border:none;
+  border-radius:7px;
+  font-size:14px;
 }
 
-
-footer p {
-    margin: auto;
-    padding: 5px 0px;
+footer{
+  background-color:#181c14;
+  padding:10px 0;
+  text-align:center;
+  font-size:14px;
+  color:#ecdfcc;
+  border-top:3px solid #697565;
 }
 
+footer p{
+  margin:auto;
+  padding:5px 0px;
+}
