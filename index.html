@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Turki Naif Alghamdi / 2136442</title>
 </head>
 <body>
-    <h1>When2Meet</h1>
-    <ul>
-        <li><a href="#">Create Event</a></li>
-        <li><a href="#">Select Availability</a></li>
-        <li><a href="#">View Results</a></li>
-        <li><a href="#">Sign up</a></li>
-    </ul>
+    <nav id="navBar">
+        <h1>When2Meet</h1>
+        <ul>
+            <li><a href="#">Create Event</a></li>
+            <li><a href="#">Select Availability</a></li>
+            <li><a href="#">View Results</a></li>
+            <li><a href="#">Sign up</a></li>
+        </ul>
+    </nav>
 
     <h2>Create Event</h2>
-    <form>
+    <form id="theForm">
         <label for="eventName">Event Name:</label>
         <input id="eventName" name="eventName" type="text">
         <br>
@@ -38,7 +41,7 @@
     </form>
 
     <h2>Input Availability</h2>
-    <form>
+    <form id="theForm2">
         <table>
             <tr>
                 <th>Time</th>
@@ -62,7 +65,7 @@
     </form>
 
     <h2>View Results</h2>
-    <form>
+    <form id="result-form">
         <table>
             <tr>
                 <th>Time</th>
@@ -86,7 +89,7 @@
     </form>
 
     <h2>Sign up</h2>
-    <form>
+    <form id="sign-up-form">
         <label for="username">Username:</label>
         <input id="username" name="username" type="text">
         <label for="email">Email:</label>
